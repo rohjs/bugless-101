@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="김버그" />
+    <meta name="description" content="~~~" />
+    <meta name="keywords" content="김버그, 구름강의, 구름Edu" />
+    <title>김버그의 버그없는 HTML과 CSS</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>kimbug</h1>
+
+    <script src="./app.js"></script>
+    <script>
+      var h1 = document.querySelector("h1")
+      h1.addEventListener("click", function(event) {
+        this.textContent = "hi"
+      })
+    </script>
+  </body>
+</html>
