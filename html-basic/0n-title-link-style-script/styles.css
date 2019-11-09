@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+h1 {
+  flex-grow: 0;
+  display: inline-block;
+  padding: 0.1em 0.4em 0.15em;
+  border-radius: 2px;
+  background-color: #1fb6ff;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #fff;
+  letter-spacing: -0.03em;
+  cursor: pointer;
+  user-select: none;
+}
+
+h1:hover {
+  background-color: #ff16d1;
+}
