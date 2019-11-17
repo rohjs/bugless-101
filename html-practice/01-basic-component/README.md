@@ -1,4 +1,4 @@
-# Modal
+# Basic Component
 
 ### Screenshot
 

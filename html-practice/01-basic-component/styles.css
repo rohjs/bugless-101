@@ -78,21 +78,3 @@ a {
   text-decoration: none;
   background: linear-gradient(90deg, #ff8806 0%, #fb07f3 100%);
 }
-
-button {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  padding: 0;
-  border: none;
-  background-color: #fff;
-  box-shadow: none;
-  cursor: pointer;
-}
-
-button:focus,
-button:hover {
-  outline: none;
-  box-shadow: none;
-  opacity: 0.5;
-}
