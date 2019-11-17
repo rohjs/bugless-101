@@ -32,6 +32,7 @@ body::after {
   font-weight: 600;
 }
 
+/* Common styles */
 .feature-box {
   display: flex;
   flex-direction: column;
@@ -65,6 +66,7 @@ body::after {
   margin-bottom: 1rem;
 }
 
+/* For feature box without image */
 .feature-box.no-image {
   padding-top: 196px;
   background-image: url("https://wac-cdn.atlassian.com/dam/jcr:bc1f15f9-3b2e-4c30-9313-0ebd6175f18c/File%20Cabinet@2x.png?cdnVersion=676");
