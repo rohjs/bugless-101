@@ -52,6 +52,14 @@ body::after {
   text-decoration: none;
 }
 
+.pagination > a:first-child {
+  border-radius: 3px 0 0 3px;
+}
+
+.pagination > a:last-child {
+  border-radius: 0 3px 3px 0;
+}
+
 .pagination ol button {
   background-color: #fff;
   border: none;
@@ -77,9 +85,12 @@ body::after {
   color: #0366d6;
 }
 
+.pagination li.disabled {
+  background-color: #fafbfc;
+}
+
 .pagination li.current-page {
   border-color: #0366d6;
-  /* border-right-color: #0366d6; */
   background-color: #0366d6;
 }
 
