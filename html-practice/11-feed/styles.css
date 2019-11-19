@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1f2d3d;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+}
+
+body::after {
+  content: "kimbug©";
+  display: block;
+  margin-top: 50px;
+  color: #1f2d3d;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.feed {
+  width: 100%;
+  max-width: 420px;
+  background-color: #fff;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.04);
+  padding: 16px 20px;
+  border-radius: 5px;
+}
+
+.feed button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #0257c7;
+  cursor: pointer;
+}
+
+.feed button:hover,
+.feed button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.feed-user-profile {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.feed-user-profile > a {
+  margin-right: 12px;
+  line-height: 1;
+}
+
+.feed-user-profile > a img {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+}
+
+.feed-user-profile div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feed-user-profile h1 {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #212529;
+}
+
+.feed-user-profile a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.feed-user-profile a:hover {
+  opacity: 0.5;
+}
+
+.feed-user-profile span {
+  color: #80868e;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.feed-user-profile button {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  padding: 0 16px;
+  border: 1px solid #dbdee4;
+  border-radius: 4px;
+  transform: translateY(-50%);
+  transition: color 300ms, background-color 400ms, border-color 300ms;
+}
+
+.feed-user-profile button.following {
+  background-color: #006ffe;
+  border-color: #006ffe;
+  color: #fff;
+}
+
+.feed-content {
+  margin-bottom: 8px;
+}
+
+.feed-content p {
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: -0.01em;
+  color: #333e47;
+}
+
+.feed-footer button {
+  height: 32px;
+  padding: 0;
+  border: none;
+  margin-right: 12px;
+  color: #0081ff;
+  background-color: #fff;
+}
+
+.feed-footer button:hover {
+  color: #006ffe;
+}
+
+.feed-footer button:first-child.active {
+  font-weight: 700;
+}
+
+.feed-comment {
+  display: none;
+  margin-top: 4px;
+}
+
+.feed-comment.active {
+  display: block;
+}
+
+.feed-comment textarea {
+  width: 100%;
+  height: 64px;
+  padding: 10px 12px;
+  border: 1px solid #dbdee4;
+  border-radius: 3px;
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 1.4285714286;
+  color: #333e47;
+  transition: border-color 250ms ease-in-out;
+}
+
+.feed-comment textarea:focus {
+  outline: none;
+  border-color: #b6bec8;
+}
+
+.feed-comment textarea::placeholder {
+  color: #b6bec8;
+}
+
+.feed-comment button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  padding: 0 16px;
+  border-radius: 4px;
+  transition: background-color 100ms;
+  background-color: #0081ff;
+  border-color: #0081ff;
+  color: #fff;
+}
+
+.feed-comment button:hover {
+  background-color: #006ffe;
+}
