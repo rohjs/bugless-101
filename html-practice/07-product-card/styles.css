@@ -1,0 +1,133 @@
+@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: -0.03em;
+}
+
+html {
+  font-family: "SpoqaHanSans";
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1f2d3d;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #1f2d3d;
+}
+
+body::after {
+  content: "kimbug©";
+  display: block;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sr-only {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  z-index: -1;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 48px 24px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.product-card:hover .product-card-image::after {
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+.product-card-image {
+  order: 1;
+  position: relative;
+}
+
+.product-card-image img {
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.product-card-image::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  bottom: 8px;
+  width: 75%;
+  height: 0;
+  padding-bottom: 75%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  transition: box-shadow 250ms ease-in;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.65);
+}
+
+.product-card-title {
+  order: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.product-card-title h1 {
+  font-size: 18px;
+  line-height: 1.3333333333;
+  color: #212529;
+}
+
+.product-card-title strong {
+  padding: 0 5px 0 4px;
+  border-radius: 4px;
+  margin-left: 8px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #fff;
+  background-color: #0257c7;
+}
+
+.product-card-author {
+  order: 2;
+  margin: 8px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #80868e;
+}
+
+.product-card-review {
+  order: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -4px;
+  font-size: 14px;
+}
+
+.fas {
+  color: #ffcf14;
+  margin-right: -1px;
+}
