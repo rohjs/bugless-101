@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Breadcrumb &amp; Pagination - 김버그의 버그 없는 HTML</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="breadcrumb">
+      <a href="https://github.com/rohjs">rohjs</a>
+      <a href="https://github.com/rohjs/bugless-101">bugless-101</a>
+    </div>
+
+    <div class="pagination">
+      <a href="#" class="disabled" aria-label="Go to previous page">Previous</a>
+      <ol>
+        <li class="current-page">
+          <a href="#" aria-label="Current page. Page 1">1</a>
+        </li>
+        <li>
+          <a href="#" aria-label="Go to 2 page">2</a>
+        </li>
+        <li>
+          <a href="#" aria-label="Go to 3 page">3</a>
+        </li>
+        <li>
+          <a href="#" aria-label="Go to 4 page">4</a>
+        </li>
+        <li>
+          <a href="#" aria-label="Go to 5 page">5</a>
+        </li>
+        <li>
+          <button type="button" disabled>...</button>
+        </li>
+        <li>
+          <a href="#" aria-label="Go to 6 page">6</a>
+        </li>
+        <li>
+          <a href="#" aria-label="Go to 7 page">7</a>
+        </li>
+        <li>
+          <a href="#" aria-label="Go to 8 page">8</a>
+        </li>
+      </ol>
+      <a href="#" aria-label="Go to next page">Next</a>
+    </div>
+  </body>
+</html>
