@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1f2d3d;
+  letter-spacing: -0.005em;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #1f2d3d;
+}
+
+body::after {
+  content: "kimbug©";
+  display: block;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.user-list-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 12px 10px 10px;
+  background-color: #e9ebee;
+}
+
+.user-list-item:first-child:last-child {
+  border-radius: 3px;
+}
+
+.user-list-item:first-child:not(:last-child) {
+  border-radius: 3px 3px 0 0;
+}
+
+.user-list-item:last-child:not(:first-child) {
+  border-radius: 0 0 3px 3px;
+}
+
+.user-list-item a {
+  color: #212529;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.user-list-item a:hover {
+  opacity: 0.65;
+}
+
+.user-list-item > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 40px;
+  margin-right: 12px;
+  overflow: hidden;
+}
+
+.user-list-item > a img {
+  width: 100%;
+  height: auto;
+}
+
+.user-list-item dl {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.user-list-item dt {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.user-list-item dd {
+  font-size: 14px;
+  line-height: 16px;
+  color: #90949c;
+}
+
+.user-list-item dd .active {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  background-image: linear-gradient(135deg, #29eb7f 0%, #13ce66 100%);
+  background-color: #29eb7f;
+}
