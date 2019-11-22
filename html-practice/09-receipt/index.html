@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Receipt - 김버그의 버그 없는 HTML</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <h1>
+      Bill sharing request
+      <span>from <a href="#">Kimbug</a></span>
+    </h1>
+    <div class="receipt">
+      <span aria-label="Issued on June 24th, 20xx">24.06.20xx</span>
+      <h2>
+        McDonald's
+      </h2>
+      <strong class="barcode">
+        <img src="./assets/images/barcode.svg" alt="Barcode" />
+      </strong>
+      <div>
+        <dl>
+          <div>
+            <dt>Coke Light - 0.3<span aria-label="litter">L</span></dt>
+            <dd>
+              <strong>
+                &dollar;1.50
+              </strong>
+            </dd>
+          </div>
+          <div>
+            <dt>Heineken Beer - 0.5<span aria-label="litter">L</span></dt>
+            <dd>
+              <strong>
+                &dollar;3.25
+              </strong>
+            </dd>
+          </div>
+          <div>
+            <dt>Chicken McNuggets</dt>
+            <dd>
+              <strong>
+                &dollar;21.00
+              </strong>
+            </dd>
+          </div>
+        </dl>
+        <dl>
+          <dt>In total</dt>
+          <dd>
+            <strong>
+              &dollar;25.75
+            </strong>
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </body>
+</html>
