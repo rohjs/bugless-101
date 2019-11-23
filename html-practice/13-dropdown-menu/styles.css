@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1f2d3d;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #1f2d3d;
+}
+
+body::after {
+  content: "kimbug©";
+  display: block;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-button {
+  width: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.dropdown-button:hover {
+  opacity: 0.75;
+}
+
+.dropdown-button:focus,
+.dropdown-button:active {
+  box-shadow: none;
+  outline: none;
+}
+
+.dropdown-button img {
+  width: 100%;
+  height: auto;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 200px;
+  padding: 8px 0;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 1px 15px rgba(27, 31, 35, 0.15);
+  transition: transform 200ms ease-in;
+}
+
+.dropdown-menu.active {
+  display: block;
+}
+
+.dropdown-menu:hover {
+  transform: translateY(2px);
+}
+
+.dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: -18px;
+  right: 12px;
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-left: 8px solid transparent;
+  border-bottom: 9px solid #fff;
+  border-right: 8px solid transparent;
+}
+
+.dropdown-menu h3,
+.dropdown-menu a {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+  text-decoration: none;
+}
+
+.dropdown-menu h3 {
+  padding: 8px 16px 16px;
+  border-bottom: 1px solid #e1e4e8;
+  font-weight: 500;
+}
+
+.dropdown-menu h3 strong {
+  font-weight: 700;
+}
+
+.dropdown-menu h3 strong:hover {
+  opacity: 0.5;
+}
+
+.dropdown-menu ul {
+  list-style-type: none;
+  padding: 8px 0;
+}
+
+.dropdown-menu ul:last-child {
+  border-top: 1px solid #e1e4e8;
+}
+
+.dropdown-menu ul a {
+  display: block;
+  padding: 8px 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+  text-decoration: none;
+}
+
+.dropdown-menu ul a:hover {
+  color: #fff;
+  background-color: #0366d6;
+}
