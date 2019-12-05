@@ -55,14 +55,14 @@ body::after {
   color: #1a0dab;
 }
 
-.google-search-result-item > div {
+.google-search-result-item > a {
   margin-bottom: 4px;
-  letter-spacing: 0;
+  letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
 }
 
-.google-search-result-item > div a {
+.google-search-result-item > a {
   color: #006621;
 }
 
