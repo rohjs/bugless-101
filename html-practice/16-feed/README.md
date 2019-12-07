@@ -1,4 +1,4 @@
-# Feed User Profile
+# Feed
 
 ### Screenshot
 
