@@ -19,7 +19,7 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0 auto;
-  background-color: #f8f9fa;
+  background-color: #ee5253;
 }
 
 body::after {
@@ -29,4 +29,74 @@ body::after {
   color: #1f2d3d;
   font-size: 12px;
   font-weight: 600;
+}
+
+.sr-only {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  z-index: -1;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.inbox {
+  max-width: 1140px;
+  border-collapse: collapse;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #212529;
+  white-space: nowrap;
+}
+
+.inbox thead {
+  position: absolute;
+  z-index: -1;
+}
+
+.inbox tr {
+  transition: box-shadow 150ms ease-in-out;
+}
+
+.inbox tr:not(:last-child) {
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.inbox tr:hover {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.14);
+}
+
+.inbox tr.unread {
+  font-weight: 700;
+}
+
+.inbox tr.unread span {
+  font-weight: 400 !important;
+}
+
+.inbox span:not(:nth-child(2)) {
+  opacity: 0.75;
+}
+
+.inbox th,
+.inbox td {
+  padding: 8px 16px;
+}
+
+.inbox th:nth-child(3),
+.inbox td:nth-child(3) {
+  padding-right: 64px;
+}
+
+.inbox th:last-child,
+.inbox td:last-child {
+  font-size: 12px;
+}
+
+.inbox a {
+  color: inherit;
+  text-decoration: none;
 }

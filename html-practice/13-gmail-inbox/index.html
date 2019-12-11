@@ -4,8 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>TITLE - 김버그의 버그 없는 HTML</title>
+    <title>Gmail Inbox - 김버그의 버그 없는 HTML</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body></body>
+  <body>
+    <table class="inbox">
+      <thead>
+        <tr>
+          <th>
+            Actions
+          </th>
+          <th>
+            Sender
+          </th>
+          <th>
+            Title
+          </th>
+          <th>
+            Timestamp
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="unread">
+          <td>
+            <div>
+              <input type="checkbox" id="inbox-1" />
+              <label for="inbox-1" class="sr-only"></label>
+              <button type="button" aria-label="Star this email"></button>
+            </div>
+          </td>
+          <td>
+            Goorm Edu
+          </td>
+          <td>
+            <a href="#">
+              <strong class="sr-only">Unread</strong>
+              <strong>
+                Rate your course: FRONTEND 101 WITH KIMBUG
+              </strong>
+              <span>
+                - Woohyeon. How’s everything going? We want to hear your opnion on...
+              </span>
+            </a>
+          </td>
+          <td>
+            3:34 PM
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div>
+              <input type="checkbox" id="inbox-1" />
+              <label for="inbox-1" class="sr-only"></label>
+              <button type="button" aria-label="Star this email"></button>
+            </div>
+          </td>
+          <td>
+            Goorm Edu
+          </td>
+          <td>
+            <a href="#">
+              <strong class="sr-only">Read</strong>
+              <span>
+                Rate your course: FRONTEND 101 WITH KIMBUG
+              </span>
+              <span>
+                - Woohyeon. How’s everything going? We want to hear your opnion on...
+              </span>
+            </a>
+          </td>
+          <td>
+            3:34 PM
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
