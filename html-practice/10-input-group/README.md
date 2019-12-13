@@ -2,4 +2,4 @@
 
 ### Screenshot
 
-![Input Group](https://user-images.githubusercontent.com/19285811/70372706-9d2dec80-191d-11ea-96c7-9f4e00cbca3f.png)
+![Input Group](https://user-images.githubusercontent.com/19285811/70762571-f1a4f200-1d8b-11ea-9227-67540eeddf0f.png)
