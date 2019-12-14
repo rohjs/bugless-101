@@ -129,7 +129,7 @@ body::after {
 
 .inbox-star:hover,
 .inbox-checkbox:hover::after {
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 .inbox-star:focus,
