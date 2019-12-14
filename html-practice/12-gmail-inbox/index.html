@@ -28,10 +28,14 @@
       <tbody>
         <tr class="unread">
           <td>
-            <div>
-              <input type="checkbox" id="inbox-1" />
-              <label for="inbox-1" class="sr-only"></label>
-              <button type="button" aria-label="Star this email"></button>
+            <div class="inbox-actions">
+              <div class="inbox-checkbox">
+                <input type="checkbox" id="inbox-1" />
+                <label for="inbox-1" class="sr-only">Select</label>
+              </div>
+              <button type="button" class="inbox-star">
+                <span class="sr-only">Add to favorites</span>
+              </button>
             </div>
           </td>
           <td>
@@ -52,12 +56,16 @@
             3:34 PM
           </td>
         </tr>
-        <tr>
+        <tr class="read">
           <td>
-            <div>
-              <input type="checkbox" id="inbox-1" />
-              <label for="inbox-1" class="sr-only"></label>
-              <button type="button" aria-label="Star this email"></button>
+            <div class="inbox-actions">
+              <div class="inbox-checkbox">
+                <input type="checkbox" id="inbox-1" />
+                <label for="inbox-1" class="sr-only">Select</label>
+              </div>
+              <button type="button" class="inbox-star">
+                <span class="sr-only">Add to favorites</span>
+              </button>
             </div>
           </td>
           <td>
@@ -66,9 +74,9 @@
           <td>
             <a href="#">
               <strong class="sr-only">Read</strong>
-              <span>
+              <strong>
                 Rate your course: FRONTEND 101 WITH KIMBUG
-              </span>
+              </strong>
               <span>
                 - Woohyeon. How’s everything going? We want to hear your opnion on...
               </span>
@@ -80,5 +88,7 @@
         </tr>
       </tbody>
     </table>
+
+    <script src="./app.js"></script>
   </body>
 </html>
