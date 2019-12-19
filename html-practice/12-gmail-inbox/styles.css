@@ -26,7 +26,7 @@ body::after {
   content: "kimbug©";
   display: block;
   margin-top: 50px;
-  color: #1f2d3d;
+  color: #fff;
   font-size: 12px;
   font-weight: 600;
 }
