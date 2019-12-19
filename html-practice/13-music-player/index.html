@@ -4,8 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>TITLE - 김버그의 버그 없는 HTML</title>
+    <title>Music Player - 김버그의 버그 없는 HTML</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body></body>
+  <body>
+    <ul class="music-player">
+      <li class="music-play-item">
+        <img
+          src="https://m.media-amazon.com/images/I/814Rp76DidL._SS500_.jpg"
+          alt="The Switch"
+          class="music-album-cover"
+        />
+        <div class="music-info">
+          <div class="music-info-detail">
+            <h1 lang="ko">러브 엑스 마키나 Love Ex Machina</h1>
+            <strong lang="ko">
+              MLSL (밀레니엄 살롱)
+            </strong>
+          </div>
+          <span class="music-playtime">
+            <span class="sr-only">Duration</span>
+            04:09
+          </span>
+        </div>
+        <audio src="./assets/music-1.mp3" class="music-audio"></audio>
+      </li>
+      <li class="music-play-item">
+        <img
+          src="http://image.genie.co.kr/Y/IMAGE/IMG_ARTIST/080/660/591/80660591_1560403300605_1_600x600.JPG"
+          alt="The Switch"
+          class="music-album-cover"
+        />
+        <div class="music-info">
+          <div class="music-info-detail">
+            <h1 lang="ko">올라가</h1>
+            <strong lang="ko">
+              권선홍
+            </strong>
+          </div>
+          <span class="music-playtime">
+            <span class="sr-only">Duration</span>
+            03:33
+          </span>
+        </div>
+        <audio src="./assets/music-2.mp3" class="music-audio"></audio>
+      </li>
+    </ul>
+
+    <script src="./app.js"></script>
+  </body>
 </html>

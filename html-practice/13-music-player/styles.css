@@ -30,3 +30,89 @@ body::after {
   font-size: 12px;
   font-weight: 600;
 }
+
+ul,
+li {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.sr-only {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  z-index: -1;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.music-player {
+  width: 100%;
+  max-width: 540px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.music-play-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.music-album-cover {
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+  margin-right: 16px;
+}
+
+.music-info {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 8px 0;
+  border-top: 1px solid #e5e5e5;
+  cursor: pointer;
+}
+
+.music-info * {
+  transition: opacity 120ms;
+}
+
+.music-info:hover * {
+  opacity: 0.6;
+}
+
+.music-play-item:last-child .music-info {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.music-info-detail * {
+  font-weight: 400;
+}
+
+.music-info-detail h1 {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #383838;
+}
+
+.music-info-detail strong {
+  display: block;
+  font-size: 14px;
+  color: #8e8e93;
+}
+
+.music-playtime {
+  font-size: 14px;
+  color: #909095;
+}
