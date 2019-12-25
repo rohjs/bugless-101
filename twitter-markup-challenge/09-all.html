@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Twitter Markup Challenge</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="#">
+          <img src="#" alt="Twitter" />
+        </a>
+      </h1>
+    </header>
+    <nav>
+      <h1>Menu</h1>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Explore</a>
+        </li>
+        <li>
+          <a href="#">
+            Notifications
+            <strong aria-label="6 unread">6</strong>
+          </a>
+        </li>
+        <li>
+          <a href="#">Messages</a>
+        </li>
+        <li>
+          <a href="#">Bookmarks</a>
+        </li>
+        <li>
+          <a href="#">Lists</a>
+        </li>
+        <li>
+          <a href="#">Profile</a>
+        </li>
+        <li>
+          <button type="button">More</button>
+          <div>
+            <!-- More Dropdown -->
+          </div>
+        </li>
+      </ul>
+      <button type="button">Tweet</button>
+      <!-- Feed Form -->
+    </nav>
+
+    <main>
+      <header>
+        <h1>Home</h1>
+        <button type="button">
+          Timeline options
+        </button>
+        <div>
+          <h2>Home shows you top Tweets first</h2>
+          <button type="button">
+            <!-- Icon -->
+            <strong>
+              See latest Tweets instead
+            </strong>
+            <span>
+              You’ll be switched back Home after you’ve been away for a while.
+            </span>
+          </button>
+          <button type="button">
+            <!-- Icon -->
+            View content preferences
+          </button>
+        </div>
+      </header>
+
+      <section>
+        <h1>Write a tweet</h1>
+
+        <form action="#" method="POST">
+          <img src="#" alt="Kimbug" />
+          <textarea placeholder="What's happening?"></textarea>
+          <footer>
+            <div>
+              <button type="button" aria-label="Upload images or videos"></button>
+              <!-- Hidden input -->
+              <input type="file" accept="image/*, video/*" multiple />
+              <button type="button" aria-label="Search GIF"></button>
+              <button type="button" aria-label="Create a poll"></button>
+              <button type="button" aria-label="Emotion"></button>
+            </div>
+            <div aria-label="0 out of 280 characters"></div>
+            <button type="button" aria-label="Add another tweet"></button>
+            <button type="submit">Tweet</button>
+          </footer>
+        </form>
+      </section>
+
+      <section>
+        <h1>Your Timeline</h1>
+        <ol>
+          <li>
+            <article>
+              <header>
+                <h1>
+                  <a href="#">김익명</a>
+                </h1>
+                <dl>
+                  <div>
+                    <dt>
+                      Username
+                    </dt>
+                    <dd>
+                      <a href="#">@anonymouskim</a>
+                    </dd>
+                  </div>
+                  <div>
+                    <dt>
+                      Posted
+                    </dt>
+                    <dd aria-label="19 hours ago">
+                      19h
+                    </dd>
+                  </div>
+                </dl>
+                <button type="button" aria-label="Options">
+                  <!-- Icon -->
+                </button>
+                <div>
+                  <button type="button">
+                    <!-- Icon -->
+                    Show less often
+                  </button>
+                  <button type="button">
+                    <!-- Icon -->
+                    Embed Tweet
+                  </button>
+                  <button type="button">
+                    <!-- Icon -->
+                    Unfollow @anonymouskim
+                  </button>
+                  <button type="button">
+                    <!-- Icon -->
+                    Mute @anonymouskim
+                  </button>
+                  <button type="button">
+                    <!-- Icon -->
+                    Block @anonymouskim
+                  </button>
+                  <button type="button">
+                    <!-- Icon -->
+                    Report Tweet
+                  </button>
+                </div>
+              </header>
+
+              <p>
+                영어를 더 잘 하고싶다. 그러나 공부를 하고 싶지는 않다. 내 삶의 모든 것이 이런 식으로 망해왔다
+              </p>
+
+              <footer>
+                <button type="button">
+                  <span class="sr-only">Tweet your reply</span>
+                  <!-- Icon -->
+                  <strong aria-label="103 replies">103</strong>
+                </button>
+                <button type="button">
+                  <span class="sr-only">Retweet</span>
+                  <!-- Icon -->
+                  <strong aria-label="302 retweeted">302</strong>
+                </button>
+                <button type="button">
+                  <span class="sr-only">Like this tweet</span>
+                  <!-- Icon -->
+                  <strong aria-label="877 liked">877</strong>
+                </button>
+                <button type="button">
+                  <span class="sr-only">Share</span>
+                  <!-- Icon -->
+                </button>
+
+                <!-- DROPDOWN MENU -->
+                <div>
+                  <button type="button">
+                    <!-- Icon -->
+                    Retweet
+                  </button>
+                  <button type="button">
+                    <!-- Icon -->
+                    Retweet with comment
+                  </button>
+                </div>
+                <div>
+                  <button type="button">
+                    <!-- Icon -->
+                    Send via Direct Message
+                  </button>
+                  <button type="button">
+                    <!-- Icon -->
+                    Add Tweet to Bookmarks
+                  </button>
+                  <button type="button">
+                    <!-- Icon -->
+                    Copy link to Tweet
+                  </button>
+                </div>
+              </footer>
+            </article>
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <aside>
+      <h1>Worldwide trends</h1>
+      <button type="button" aria-label="Options">
+        <!-- Icon -->
+      </button>
+      <ol>
+        <li>
+          <span>1 · Trending worldwide</span>
+          <strong>
+            김버그
+          </strong>
+          <span>
+            <span aria-label="577000">577K</span>
+            Tweets
+          </span>
+          <button type="button" aria-label="Options">
+            <!-- Icon -->
+          </button>
+          <div>
+            <button type="button">
+              <!-- Icon -->
+              This trend is spam
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is abusive or harmful
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is a duplicate
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is low quality
+            </button>
+          </div>
+        </li>
+        <li>
+          <span>2 · Trending worldwide</span>
+          <strong>
+            KimbugYoutube
+          </strong>
+          <span>
+            <span aria-label="577000">577K</span>
+            Tweets
+          </span>
+          <button type="button" aria-label="Options">
+            <!-- Icon -->
+          </button>
+          <div>
+            <button type="button">
+              <!-- Icon -->
+              This trend is spam
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is abusive or harmful
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is a duplicate
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is low quality
+            </button>
+          </div>
+        </li>
+        <li>
+          <span>3 · Trending worldwide</span>
+          <strong>
+            김버그
+          </strong>
+          <span>
+            <span aria-label="577000">577K</span>
+            Tweets
+          </span>
+          <button type="button" aria-label="Options">
+            <!-- Icon -->
+          </button>
+          <div>
+            <button type="button">
+              <!-- Icon -->
+              This trend is spam
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is abusive or harmful
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is a duplicate
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is low quality
+            </button>
+          </div>
+        </li>
+        <li>
+          <span>4 · Trending worldwide</span>
+          <strong>
+            KimbugYoutube
+          </strong>
+          <span>
+            <span aria-label="577000">577K</span>
+            Tweets
+          </span>
+          <button type="button" aria-label="Options">
+            <!-- Icon -->
+          </button>
+          <div>
+            <button type="button">
+              <!-- Icon -->
+              This trend is spam
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is abusive or harmful
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is a duplicate
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is low quality
+            </button>
+          </div>
+        </li>
+        <li>
+          <span>5 · Trending worldwide</span>
+          <strong>
+            김버그
+          </strong>
+          <span>
+            <span aria-label="577000">577K</span>
+            Tweets
+          </span>
+          <button type="button" aria-label="Options">
+            <!-- Icon -->
+          </button>
+          <div>
+            <button type="button">
+              <!-- Icon -->
+              This trend is spam
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is abusive or harmful
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is a duplicate
+            </button>
+            <button type="button">
+              <!-- Icon -->
+              This trend is low quality
+            </button>
+          </div>
+        </li>
+      </ol>
+      <button type="button">Show more</button>
+    </aside>
+
+    <footer>
+      <ul>
+        <a href="#" target="_blank">Terms</a>
+        <a href="#" target="_blank">Privacy policy</a>
+        <a href="#" target="_blank">Cookies</a>
+        <a href="#" target="_blank">Ads info</a>
+        <button type="button">
+          More
+          <!-- Icon -->
+        </button>
+        <div>
+          <a href="#" target="_blank">About</a>
+          <a href="#" target="_blank">Status</a>
+          <a href="#" target="_blank">Businesses</a>
+          <a href="#" target="_blank">Developers</a>
+        </div>
+        © 2019 Twitter, Inc.
+      </ul>
+    </footer>
+  </body>
+</html>
