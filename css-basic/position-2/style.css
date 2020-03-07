@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #1f2d3d;
+  line-height: 1.4545454545;
+}
+
+span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7d858f;
+  line-height: 1.5;
+}
+
+strong {
+  font-size: 22px;
+  color: #2860e1;
+  line-height: 1.0909090909;
+}
+
+strong span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #525d69;
+  line-height: 1.5;
+}
+
+button {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+}
+
+#prev {
+  background-image: url(./assets/icon-backward.svg);
+}
+
+#next {
+  background-image: url(./assets/icon-forward.svg);
+}
+
+/* ▼ WHERE YOUR CODE BEGINS */
+
+.card {
+  width: 400px;
+}
+
+.card-carousel {
+  position: relative;
+}
+
+.card-carousel img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-carousel #prev {
+  left: 0;
+}
+
+.card-carousel #next {
+  right: 0;
+}
+
+.card-content {
+  padding: 12px 16px;
+  background-color: #fff;
+}
+
+.card-content h1 {
+  margin-bottom: 2px;
+}
+
+.card-content > span {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.card-content strong {
+  display: block;
+  text-align: right;
+}
