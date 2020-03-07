@@ -10,7 +10,8 @@
 
 ![image](https://user-images.githubusercontent.com/19285811/76139900-612f3280-6098-11ea-9deb-9475202f1943.png)
 
-[Bugless-101 repository](https://github.com/rohjs/bugless-101/)에 실습에 필요한 templates를 제공합니다. [css-basic](https://github.com/rohjs/bugless-101/tree/master/css-basic) 디렉토리에서 각 실습 파트 별로 제공되는 templates 파일을 미리 준비해 주세요.
+[Bugless-101 repository](https://github.com/rohjs/bugless-101/)에 실습에 필요한 templates를 제공합니다.  
+[css-basic](https://github.com/rohjs/bugless-101/tree/master/css-basic) 디렉토리에서 각 실습 파트 별로 제공되는 templates 파일을 미리 준비해 주세요.
 
 CSS 강의에서는 HTML 마크업을 다루지 않기 때문에 마크업 된 HTML 파일을 제공합니다.
 
