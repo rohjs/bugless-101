@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Nunito Sans", sans-serif;
+  color: #273444;
+  background-color: #000;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  box-shadow: none;
+  outline: none;
+}
+
+.modal {
+  background-color: #fff;
+}
+
+.modal-title,
+.modal-desc {
+  text-align: center;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.6666666667;
+}
+
+.modal-desc {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.input-group input,
+.input-group button {
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.4285714286;
+}
+
+.close-button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+  background-image: url(./assets/icon-close.svg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* ▼ WHERE YOUR CODE BEGINS */
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 32px 40px;
+  border-radius: 4px;
+}
+
+.modal-title,
+.modal-desc {
+  text-align: center;
+}
+
+.modal-title {
+  margin-bottom: 4px;
+}
+
+.modal-desc {
+  max-width: 590px;
+  margin-bottom: 24px;
+}
+
+.close-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.input-group {
+  text-align: center;
+}
+
+.input-group input {
+  width: 200px;
+  height: 36px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f6f8fa;
+}
+
+.input-group button {
+  padding: 8px 13px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #2860e1;
+}
