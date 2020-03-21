@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+}
+
+.tab-menu {
+  padding-left: 0;
+  border-bottom: 1px solid #e5eaef;
+  list-style-type: none;
+}
+
+.tab-menu::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.tab-menu-item {
+  float: left;
+  margin-right: 16px;
+}
+
+.tab-menu-item.active {
+  border-bottom: 2px solid #2860e1;
+}
+
+.tab-menu-item.active a {
+  font-weight: 500;
+  color: #2860e1;
+}
+
+.tab-menu-item:last-child {
+  margin-right: 0;
+}
+
+.tab-menu-item a {
+  display: block;
+  padding: 16px 20px;
+}
+
+/* ▼ WHERE YOUR CODE BEGINS */
