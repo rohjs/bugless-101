@@ -22,7 +22,6 @@ body {
 
 .container {
   width: 100%;
-  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -30,8 +29,13 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0 -15px;
 }
+
+/*
+  [class*="col-"] {
+    padding: 0 15px;
+  }
+*/
 
 .col-1 {
   width: 8.3333333333%;
