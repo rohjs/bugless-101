@@ -1,0 +1,29 @@
+/* ▼ WHERE YOUR CODE BEGINS */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 740px;
+  padding: 48px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 48px;
+}
+
+h2 {
+  margin-bottom: 24px;
+}
+
+h3 {
+  margin-bottom: 8px;
+}
+
+p {
+  margin-bottom: 32px;
+}
