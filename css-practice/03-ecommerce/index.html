@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="product">
+        <div class="product-image-viewer">
+          <div class="main-image">
+            <img
+              src="./assets/img-product-1.jpg"
+              srcset="./assets/img-product-1.jpg 1x, ./assets/img-product-1@2x.jpg 2x"
+              alt=""
+            />
+          </div>
+          <ul class="view-list">
+            <li class="view-item selected">
+              <button type="button">
+                <img
+                  src="./assets/img-product-1.jpg"
+                  srcset="./assets/img-product-1.jpg 1x, ./assets/img-product-1@2x.jpg 2x"
+                  alt=""
+                />
+              </button>
+            </li>
+            <li class="view-item">
+              <button type="button">
+                <img
+                  src="./assets/img-product-1.jpg"
+                  srcset="./assets/img-product-2.jpg 1x, ./assets/img-product-2@2x.jpg 2x"
+                  alt=""
+                />
+              </button>
+            </li>
+            <li class="view-item">
+              <button type="button">
+                <img
+                  src="./assets/img-product-1.jpg"
+                  srcset="./assets/img-product-3.jpg 1x, ./assets/img-product-3@2x.jpg 2x"
+                  alt=""
+                />
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="product-content">
+          <header class="product-header">
+            <h1 class="product-title">
+              Off-White Odsy-1000
+              <br />
+              Low-Top Sneakers
+            </h1>
+            <dl class="product-misc">
+              <div class="rate">
+                <dt aria-label="Rated 4 out of 5">
+                  <span aria-hidden class="icon-star-active"></span>
+                  <span aria-hidden class="icon-star-active"></span>
+                  <span aria-hidden class="icon-star-active"></span>
+                  <span aria-hidden class="icon-star-active"></span>
+                  <span aria-hidden class="icon-star-inactive"></span>
+                </dt>
+                <dd>
+                  132 reviews
+                </dd>
+              </div>
+              <div class="orders">
+                <dt aria-hidden>
+                  <span class="icon-cart"></span>
+                </dt>
+                <dd>
+                  154 orders
+                </dd>
+              </div>
+            </dl>
+          </header>
+
+          <strong class="product-price">
+            &dollar;815.00
+          </strong>
+
+          <p class="product-desc">
+            Virgil Abloh’s Off-White is a streetwear-inspired collection that continues to break away from the
+            conventions of mainstream fashion. Made in Italy, these black and brown Odsy-1000 low-top sneakers.
+          </p>
+
+          <dl class="product-detail">
+            <div>
+              <dt>
+                Model
+              </dt>
+              <dd>
+                Odsy-1000
+              </dd>
+            </div>
+            <div>
+              <dt>
+                Color
+              </dt>
+              <dd>
+                Navy
+              </dd>
+            </div>
+            <div>
+              <dt>
+                Delivery
+              </dt>
+              <dd>
+                Worldwide
+              </dd>
+            </div>
+          </dl>
+
+          <form action="" method="POST" class="product-form">
+            <div class="form-options">
+              <div class="form-group form-quantity">
+                <label for="quantity">
+                  Quantity
+                </label>
+                <div class="combo-box">
+                  <button type="button" id="minus-button" aria-label="Add"></button>
+                  <input type="number" name="quantity" id="quantity" min="0" max="10" value="1" />
+                  <button type="button" id="plus-button" aria-label="Remove"></button>
+                </div>
+              </div>
+
+              <div class="form-group form-size">
+                <label for="size">
+                  Select size
+                </label>
+                <div class="radio-buttons">
+                  <div class="radio-button">
+                    <input type="radio" name="size" id="uk-9" />
+                    <label for="uk-9">
+                      UK 9
+                    </label>
+                  </div>
+                  <div class="radio-button">
+                    <input type="radio" name="size" id="uk-10" />
+                    <label for="uk-10">
+                      UK 10
+                    </label>
+                  </div>
+                  <div class="radio-button">
+                    <input type="radio" name="size" id="uk-11" />
+                    <label for="uk-11">
+                      UK 11
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="form-submit">
+              Order now
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
