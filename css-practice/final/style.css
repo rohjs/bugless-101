@@ -86,17 +86,17 @@ textarea {
   margin-right: 8px;
 }
 
-/* Testimonial */
-.testimonial {
+/* Service */
+.service {
   padding: 80px 0;
   background-color: #f4f5f7;
 }
 
-.testimonial .col-12:first-child {
+.service .col-12:first-child {
   margin-bottom: 40px;
 }
 
-.testimonial-title {
+.service-title {
   margin-bottom: 16px;
   font-size: 22px;
   line-height: 1.3636363636;
@@ -134,8 +134,7 @@ textarea {
 .program-card:hover,
 .program-card:active {
   background-color: #3141c5;
-  box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.07),
-    0px 13px 18px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.07), 0px 13px 18px rgba(0, 0, 0, 0.15);
 }
 
 .program-card:hover h2,
@@ -190,41 +189,41 @@ textarea {
   line-height: 1.4666666667;
 }
 
-/* Banner */
-.banner {
+/* Subscription */
+.subscription {
   padding: 40px 0;
   text-align: center;
   background-color: #f2f8fa;
 }
 
-.banner-image {
+.subscription-image {
   padding: 25px 0;
 }
 
-.banner-image img {
+.subscription-image img {
   display: block;
   width: auto;
   height: 190px;
   margin: 0 auto;
 }
 
-.banner-title {
+.subscription-title {
   margin-bottom: 16px;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.05em;
 }
 
-.banner-desc {
+.subscription-desc {
   margin-bottom: 24px;
 }
 
-.banner .input-group {
+.subscription .input-group {
   display: block;
   margin-bottom: 8px;
 }
 
-.banner .input-group input {
+.subscription .input-group input {
   display: block;
   width: 100%;
   height: 48px;
@@ -237,25 +236,25 @@ textarea {
   transition: border-color 250ms ease-in-out;
 }
 
-.banner .input-group input::placeholder {
+.subscription .input-group input::placeholder {
   color: #7b7b7e;
 }
 
-.banner .input-group input:focus {
+.subscription .input-group input:focus {
   border-color: rgba(1, 137, 209, 0.5);
 }
 
-.banner .input-group .fill-button {
+.subscription .input-group .fill-button {
   width: 100%;
 }
 
-.banner-misc {
+.subscription-misc {
   font-size: 13px;
   line-height: 1.5384615385;
   color: #7b7b7e;
 }
 
-.banner-misc a {
+.subscription-misc a {
   color: #3040c4;
   text-decoration: underline;
 }
@@ -352,12 +351,12 @@ textarea {
     margin-right: 16px;
   }
 
-  /* Testimonial */
-  .testimonial .col-12:first-child {
+  /* Service */
+  .service .col-12:first-child {
     margin-bottom: 0;
   }
 
-  .testimonial-title {
+  .service-title {
     font-size: 26px;
     line-height: 1.3076923077;
   }
@@ -402,45 +401,45 @@ textarea {
     line-height: 1.4444444444;
   }
 
-  /* Banner */
-  .banner {
+  /* Subscription */
+  .subscription {
     padding: 80px 0;
     text-align: left;
   }
 
-  .banner-image {
+  .subscription-image {
     padding: 8px 0;
   }
 
-  .banner-image img {
+  .subscription-image img {
     height: 285px;
     margin-left: 0;
   }
 
-  .banner-title {
+  .subscription-title {
     font-size: 40px;
   }
 
-  .banner .input-group {
+  .subscription .input-group {
     display: flex;
     align-items: center;
     width: 100%;
     margin-bottom: 4px;
   }
 
-  .banner .input-group input {
+  .subscription .input-group input {
     height: 56px;
     margin-right: 8px;
     margin-bottom: 0;
     font-size: 18px;
   }
 
-  .banner .input-group .fill-button {
+  .subscription .input-group .fill-button {
     flex-shrink: 0;
     width: 160px;
   }
 
-  .banner-misc {
+  .subscription-misc {
     font-size: 14px;
     line-height: 1.7142857143;
   }
