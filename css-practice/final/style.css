@@ -59,7 +59,7 @@ textarea {
   background-color: #fdded8;
 }
 
-.landing .row {
+.landing-content {
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -332,7 +332,7 @@ textarea {
   }
 
   /* Landing */
-  .landing .row {
+  .landing-content {
     height: auto;
     padding: 120px 0;
   }
